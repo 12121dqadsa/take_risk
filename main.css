@@ -213,7 +213,9 @@
 .feature-body {
     display: flex;
 }
-
+.hero:nth-child(2){
+    margin-top: 120px;
+}
 .feature-body-left {
     background-color: #1A1A1A;
     max-width: 600px;
