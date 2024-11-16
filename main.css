@@ -213,7 +213,8 @@
 .feature-body {
     display: flex;
 }
-.hero:nth-child(2){
+.feature-body:nth-child(2) {
+    display: flex;
     margin-top: 120px;
 }
 .feature-body-left {
