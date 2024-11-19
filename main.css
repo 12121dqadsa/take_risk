@@ -249,7 +249,7 @@
 .feature-body-left-img:nth-child(2) {
     object-fit: cover;
     margin-left: 57px;
-    padding-top: 127px;
+    margin-top: 127px;
 }
 .feature-body-right {
     padding-top: 60px;
