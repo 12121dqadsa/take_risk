@@ -189,14 +189,6 @@
     margin-right: auto;
 }
 
-.feature-container:nth-child(2) {
-    width: 1224px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-}
-
-
 .feature-heading {
     margin-bottom: 80px;
 }
