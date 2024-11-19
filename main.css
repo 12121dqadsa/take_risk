@@ -241,7 +241,7 @@
     border: none;
     margin-bottom: 73px;
 }
-.feature-body-left-btn{
+.feature-body-left-btn:nth-child(2){
     display: none;
 }
 .feature-body-left-img {
