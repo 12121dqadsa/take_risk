@@ -217,6 +217,7 @@
 .feature-bodyy {
     display: flex;
     margin-top: 120px;
+    background-color: red;
 }
 
 .feature-body-left {
