@@ -166,7 +166,7 @@
 
 .hero-container2 {
     width: 600px;
-    height: 600px;
+    height: 700px;
     background: #C7C7C7;
     border-radius: 16px;
 }
@@ -212,6 +212,11 @@
 
 .feature-body {
     display: flex;
+}
+
+.feature-bodyy {
+    display: flex;
+    margin-top: 120px;
 }
 
 .feature-body-left {
@@ -375,7 +380,7 @@
     margin-right: 24px;
     border-bottom: #D3E97A solid 2px;
     padding-bottom: 4px;
-    font-family: "Manrope",sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -387,7 +392,7 @@
     color: #D3E97A;
     border-bottom: #D3E97A solid 2px;
     padding-bottom: 4px;
-    font-family: "Manrope",sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
