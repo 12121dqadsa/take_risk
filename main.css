@@ -247,6 +247,7 @@
     margin-left: 57px;
 }
 .feature-body-left-img:nth-child(2) {
+    display: flex;
     object-fit: cover;
     margin-left: 57px;
     margin-top: 127px;
