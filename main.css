@@ -226,7 +226,14 @@
     padding-bottom: 127px;
     padding-right: 57px;
 }
-
+.feature-body-left:nth-child(2) {
+    background-color: #1A1A1A;
+    max-width: 600px;
+    border-radius: 12px;
+    padding-bottom: 127px;
+    padding-right: 57px;
+    padding-top: 127px;
+}
 .feature-body-left-btn {
     font-family: Manrope;
     font-size: 14px;
@@ -246,12 +253,7 @@
     object-fit: cover;
     margin-left: 57px;
 }
-.feature-body-left-img:nth-child(2) {
-    display: flex;
-    object-fit: cover;
-    margin-left: 57px;
-    margin-top: 127px;
-}
+
 .feature-body-right {
     padding-top: 60px;
     padding-bottom: 60px;
