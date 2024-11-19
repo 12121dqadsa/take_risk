@@ -241,7 +241,9 @@
     border: none;
     margin-bottom: 73px;
 }
-
+.feature-body-left-btn{
+    display: none;
+}
 .feature-body-left-img {
     object-fit: cover;
     margin-left: 57px;
