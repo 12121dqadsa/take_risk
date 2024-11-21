@@ -51,7 +51,7 @@
                     <a class="header-nav-link" target="_blank" type="tel" href="https://t.me/Be_smiled">Contact</a>
                 </li>
                 <li class="header-nav-item">
-                    <a class="header-nav-link" tel href="+998901408783">Number</a>
+                    <a class="header-nav-link" href="tel:+998901408783">Number</a>
                 </li>
             </ul>
             <button class="hamburger-menu"><img src="./img/header/hamburger-menu.svg" alt=""></button>
@@ -69,7 +69,7 @@
                     A Sydney based front-end developer passionate about building accessible and user friendly websites.
                 </p>
                 <div class="hero-container1-links">
-                    <a class="hero-container1-link1" href="https://t.me/Be_smiled">Contact Me <img class="hero-link"
+                    <a class="hero-container1-link1" target="_blank" href="https://t.me/Be_smiled">Contact Me <img class="hero-link"
                             src="./img/header/circle.svg" alt="">
                         <div class="hero-container-point"></div>
                     </a>
@@ -80,9 +80,7 @@
                 </div>
             </div>
             <div class="hero-container2">
-                <a target="_blank" href="https://t.me/Be_smiled">
                     <img class="hero-container2-img" src="./img/header/image.png" alt="">
-                </a>
             </div>
         </div>
     </section>
@@ -99,6 +97,7 @@
                 <div class="feature-body-left">
                     <button class="feature-body-left-btn">Conceptual Work</button>
                     <img src="./img/hero/img.png" alt="" class="feature-body-left-img">
+                    img
                 </div>
                 <div class="feature-body-right">
                     <h2 class="feature-body-right-title">Promotional landing page for our favorite show</h2>
@@ -218,7 +217,7 @@
                 <h2 class="footer-left-title">Let’s connect</h2>
                 <h4 class="footer-left-text1">
                     Say hello at
-                    <a href="https://gmail.com/islombek.xojamnazarov.007/" target="_blank" class="footer-left-text1-span1">islombek.xojamnazarov.007@gmail.com</a>
+                    <a href="mailto: islombek.xojamnazarov.007@outlook.com" target="_blank" class="footer-left-text1-span1">islombek.xojamnazarov.007@gmail.com</a>
                 </h4>
                 <h4 class="footer-left-text2">
                     For more info, here’s my
@@ -241,17 +240,25 @@
                 </ul>
                 <p class="footer-left-developer">© 2023 Robert Garcia</p>
             </div>
-            <div class="footer-right">
-                <h5 id="name" class="footer-right-input-title1">Name</h5>
-                <input id="name" placeholder="Islombek" type="text" class="footer-right-input1">
-                <h5 id="email" class="footer-right-input-title2">Email</h5>
-                <input id="email" type="email" class="footer-right-input2">
-                <h5 id="subject" class="footer-right-input-title3">Subject</h5>
-                <input id="subject" type="text" class="footer-right-input3">
-                <h5 id="message" class="footer-right-input-title4">Message</h5>
-                <textarea id="message" type="text" class="footer-right-input4"></textarea>
-                <button>Submit</button>
-            </div>
+            <form class="footer-right" action="">
+                <div class="former">
+                    <h5 id="name" class="footer-right-input-title1">Name</h5>
+                    <input required id="name" placeholder="Islombek" type="text" class="footer-right-input1">
+                </div>
+                <div class="former">
+                    <h5 id="email" class="footer-right-input-title2">Email</h5>
+                    <input required id="email" type="email" class="footer-right-input2">
+                </div>
+                <div class="former">
+                    <h5 id="subject" class="footer-right-input-title3">Subject</h5>
+                    <input required id="subject" type="text" class="footer-right-input3">
+                </div>
+                <div class="former">
+                    <h5 id="message" class="footer-right-input-title4">Message</h5>
+                    <textarea id="message" type="text" class="footer-right-input4"></textarea>
+                </div>
+                <button class="submit" type="submit">Submit</button>
+            </form>
         </div>
     </footer>
     <script src="./app.js"></script>
