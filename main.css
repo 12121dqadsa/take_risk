@@ -811,7 +811,12 @@ footer {
 
     .feature-heading {}
 
-    .feature-heading-title1 {}
+    .feature-heading-title1 {
+font-size: 43px;
+font-weight: 400;
+line-height: 43px;
+color: white;
+    }
 
     .feature-heading-title2 {}
 
