@@ -87,7 +87,7 @@
 
 .all-div-hero {
     display: flex;
-    gap: 80px;
+    gap: 20px;
 }
 
 .hero-container1 {
@@ -175,6 +175,7 @@
     height: 700px;
     background: #C7C7C7;
     border-radius: 16px;
+    margin-left: auto;
 }
 
 .hero-container2-img {
