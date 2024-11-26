@@ -87,7 +87,7 @@
 
 .all-div-hero {
     display: flex;
-    gap: 80px;
+    gap: 20px;
 }
 
 .hero-container1 {
@@ -178,15 +178,17 @@
     justify-content: center;
 }
 
-margin-left .hero-container2 {
+.hero-container2 {
     max-width: 600px;
-    height: 700px;
+    max-height: 700px;
     background: #C7C7C7;
     border-radius: 16px;
+    margin-left: auto;
 }
 
 .hero-container2-img {
     max-width: 600px;
+    max-height: 700px;
     display: flex;
 }
 
@@ -210,7 +212,7 @@ margin-left .hero-container2 {
     margin-bottom: 40px;
 }
 
-.feature-heading-title1 {
+img3 .feature-heading-title1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 76px;
     font-weight: 400;
@@ -236,7 +238,7 @@ margin-left .hero-container2 {
 
 .feature-body-left {
     background-color: #1A1A1A;
-    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
     padding-bottom: 127px;
     padding-right: 57px;
@@ -946,6 +948,7 @@ footer {
     }
 
     .hero-container-title {
+        width: 307px;
         font-size: 57px;
         font-weight: 400;
         line-height: 57px;
@@ -957,6 +960,7 @@ footer {
         font-weight: 400;
         line-height: 25.6px;
         max-width: 544px;
+        margin-left: auto;
     }
 
     .hero-container1-links {
@@ -977,14 +981,10 @@ footer {
     .hero-container1-link3 {}
 
     .hero-container2 {
-        max-width: 343px;
-        height: 400px;
         padding-right: 16px;
     }
 
     .hero-container2-img {
-        max-width: 343px;
-        height: 400px;
         object-fit: cover;
         margin-left: auto;
         margin-right: auto;
@@ -1025,7 +1025,10 @@ footer {
         max-width: 343px;
         height: 343px;
         padding-bottom: 0;
+        padding-left: 0;
         padding-right: 0;
+        display: flex;
+        padding-right: 10px;
     }
 
     .feature-body-left-btn {
@@ -1038,9 +1041,12 @@ footer {
         height: 30px;
     }
 
-    .feature-body-left-img {
-        display: none;
+    .feature-body-left-img3 {
+        width: 150px;
+        margin-left: 0;
     }
+
+    .feature-body-left-img {}
 
     .feature-body-left-imgg {
         display: block;
@@ -1130,9 +1136,7 @@ footer {
         height: 22px;
     }
 
-    .about {
-        
-    }
+    .about {}
 
     .about-container {}
 
