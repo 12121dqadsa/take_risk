@@ -820,7 +820,9 @@ color: white;
 
     .feature-heading-title2 {}
 
-    .feature-body {}
+    .feature-body {
+        max-height: 600px;
+    }
 
     .feature-body-left {}
 
