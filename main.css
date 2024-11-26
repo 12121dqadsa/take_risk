@@ -172,7 +172,7 @@
 
 .hero-container2 {
     max-width: 600px;
-    height: 700px;
+    max-height: 700px;
     background: #C7C7C7;
     border-radius: 16px;
     margin-left: auto;
@@ -180,6 +180,7 @@
 
 .hero-container2-img {
     max-width: 600px;
+    max-height: 700px;
     display: flex;
 }
 
@@ -773,6 +774,7 @@ footer {
     }
 
     .hero-container-title {
+        width: 307px;
         font-size: 57px;
         font-weight: 400;
         line-height: 57px;
@@ -784,6 +786,7 @@ footer {
         font-weight: 400;
         line-height: 25.6px;
         max-width: 544px;
+        margin-left: auto;
     }
 
     .hero-container1-links {
@@ -804,14 +807,10 @@ footer {
     .hero-container1-link3 {}
 
     .hero-container2 {
-        max-width: 343px;
-        height: 400px;
         padding-right: 16px;
     }
 
     .hero-container2-img {
-        max-width: 343px;
-        height: 400px;
         object-fit: cover;
         margin-left: auto;
         margin-right: auto;
