@@ -822,6 +822,7 @@ color: white;
 
     .feature-body {
         max-height: 600px;
+        max-width: 600px;
     }
 
     .feature-body-left {}
