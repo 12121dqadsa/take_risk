@@ -170,7 +170,7 @@
     justify-content: center;
 }
 
-margin-left .hero-container2 {
+.hero-container2 {
     max-width: 600px;
     height: 700px;
     background: #C7C7C7;
@@ -202,7 +202,7 @@ margin-left .hero-container2 {
     margin-bottom: 40px;
 }
 
-.feature-heading-title1 {
+img3 .feature-heading-title1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 76px;
     font-weight: 400;
@@ -228,7 +228,7 @@ margin-left .hero-container2 {
 
 .feature-body-left {
     background-color: #1A1A1A;
-    width: 100%;
+    max-width: 100%;
     border-radius: 12px;
     padding-bottom: 127px;
     padding-right: 57px;
@@ -851,7 +851,10 @@ footer {
         max-width: 343px;
         height: 343px;
         padding-bottom: 0;
+        padding-left: 0;
         padding-right: 0;
+        display: flex;
+        padding-right: 10px;
     }
 
     .feature-body-left-btn {
@@ -864,9 +867,12 @@ footer {
         height: 30px;
     }
 
-    .feature-body-left-img {
-        display: none;
+    .feature-body-left-img3 {
+        width: 150px;
+        margin-left: 0;
     }
+
+    .feature-body-left-img {}
 
     .feature-body-left-imgg {
         display: block;
@@ -956,9 +962,7 @@ footer {
         height: 22px;
     }
 
-    .about {
-        
-    }
+    .about {}
 
     .about-container {}
 
