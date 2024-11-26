@@ -96,7 +96,7 @@
 }
 
 .hero-container-title {
-    font-family: "Bebas Neue",sans-serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 101px;
     font-weight: 400;
     line-height: 90.9px;
@@ -106,7 +106,7 @@
 }
 
 .hero-container-text {
-    font-family: "Manrope",sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
@@ -736,18 +736,6 @@ footer {
         padding-bottom: 24px;
     }
 
-    .header-container {
-        
-    }
-
-.all-div-hero{
-    display: block;
-}
-
-    .header-logo {
-        max-width: 128px;
-        height: 28px;
-
     .header-container {}
 
     .all-div-hero {
@@ -757,173 +745,187 @@ footer {
     .header-logo {
         max-width: 128px;
         height: 28px;
-        font-size: 28px;
-        font-weight: 400;
-        line-height: 28px;
-    }
 
-    .header-nav-list {
-        display: none;
-    }
+        .header-container {}
 
-    .header-nav-item {}
+        .all-div-hero {
+            display: block;
+        }
 
-    .header-nav-link {}
+        .header-logo {
+            max-width: 128px;
+            height: 28px;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 28px;
+        }
 
-    .hamburger-menu {
-        display: block;
-    }
+        .header-nav-list {
+            display: none;
+        }
 
-    .hero {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+        .header-nav-item {}
 
-    .hero-container {}
+        .header-nav-link {}
 
-    .hero-container1 {}
+        .hamburger-menu {
+            display: block;
+        }
 
-    .hero-container-title {}
+        .hero {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
 
-    .hero-container-text {}
+        .hero-container {}
 
-    .hero-container1-links {}
+        .hero-container1 {}
 
-    .hero-container1-link1 {}
+        .hero-container-title {}
 
-    .hero-link {}
+        .hero-container-text {}
 
-    .hero-container-point {}
+        .hero-container1-links {}
 
-    .hero-container1-link2 {}
+        .hero-container1-link1 {}
 
-    .hero-container1-link3 {}
+        .hero-link {}
 
-    .hero-container2 {}
+        .hero-container-point {}
 
-    .hero-container2-img {}
+        .hero-container1-link2 {}
 
-    .black-line {}
+        .hero-container1-link3 {}
 
-    .feature {}
+        .hero-container2 {}
 
-    .feature-container {}
+        .hero-container2-img {}
 
-    .feature-heading {}
+        .black-line {}
 
-    .feature-heading-title1 {
-font-size: 43px;
-font-weight: 400;
-line-height: 43px;
-color: white;
-    }
+        .feature {}
 
-    .feature-heading-title2 {}
+        .feature-container {}
 
-    .feature-body {
-        max-height: 600px;
-        max-width: 600px;
-    }
+        .feature-heading {}
 
-    .feature-body-left {}
+        .feature-heading-title1 {
+            font-size: 43px;
+            font-weight: 400;
+            line-height: 43px;
+            color: white;
+        }
 
-    .feature-body-left-btn {}
+        .feature-heading-title2 {}
 
-    .feature-body-left-img {}
+        .feature-body {
+            max-height: 600px;
+            max-width: 600px;
+        }
 
-    .feature-body-left-imgg {}
+        .feature-body-left {}
 
-    .feature-body-right {}
+        .feature-body-left-btn {}
 
-    .feature-body-right-title {}
+        .feature-body-left-img {}
 
-    .feature-body-right-text {}
+        .feature-body-left-imgg {}
 
-    .feature-nav-list {}
+        .feature-body-right {}
 
-    .feature-nav-link {}
+        .feature-body-right-title {}
 
-    .feature-nav-nav-list1 {}
+        .feature-body-right-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25.6px;
+        }
 
-    .feature-nav-nav1-link1 {}
+        .feature-nav-list {}
 
-    .feature-nav-nav1-link2 {}
+        .feature-nav-link {}
 
-    .feature-nav-nav-list2 {}
+        .feature-nav-nav-list1 {}
 
-    .feature-nav-nav2-link1 {}
+        .feature-nav-nav1-link1 {}
 
-    .feature-nav-nav2-link2 {}
+        .feature-nav-nav1-link2 {}
 
-    .feature-nav-list1 {}
+        .feature-nav-nav-list2 {}
 
-    .feature-nav1-link1 {}
+        .feature-nav-nav2-link1 {}
 
-    .feature-nav1-link1-img {}
+        .feature-nav-nav2-link2 {}
 
-    .feature-nav1-link2 {}
+        .feature-nav-list1 {}
 
-    .feature-nav1-link2-img {}
+        .feature-nav1-link1 {}
 
-    .about {}
+        .feature-nav1-link1-img {}
 
-    .about-container {}
+        .feature-nav1-link2 {}
 
-    .about-first {}
+        .feature-nav1-link2-img {}
 
-    .about-first-left-title {}
+        .about {}
 
-    .about-first-right {}
+        .about-container {}
 
-    .about-first-right-title {}
+        .about-first {}
 
-    .about-first-right-text {}
+        .about-first-left-title {}
 
-    .footer-container {}
+        .about-first-right {}
 
-    .footer-left {}
+        .about-first-right-title {}
 
-    .footer-left-title {}
+        .about-first-right-text {}
 
-    .footer-left-text1 {}
+        .footer-container {}
 
-    .footer-left-text1-span1 {}
+        .footer-left {}
 
-    .footer-left-text2 {}
+        .footer-left-title {}
 
-    .footer-nav-list {}
+        .footer-left-text1 {}
 
-    .footer-nav-link1 {}
+        .footer-left-text1-span1 {}
 
-    .footer-nav-link2 {}
+        .footer-left-text2 {}
 
-    .footer-nav-link3 {}
+        .footer-nav-list {}
 
-    .footer-nav-link4 {}
+        .footer-nav-link1 {}
 
-    .footer-left-developer {}
+        .footer-nav-link2 {}
 
-    .footer-right {}
+        .footer-nav-link3 {}
 
-    .former {}
+        .footer-nav-link4 {}
 
-    .footer-right-input-title1 {}
+        .footer-left-developer {}
 
-    .footer-right-input1 {}
+        .footer-right {}
 
-    .footer-right-input-title2 {}
+        .former {}
 
-    .footer-right-input2 {}
+        .footer-right-input-title1 {}
 
-    .footer-right-input-title3 {}
+        .footer-right-input1 {}
 
-    .footer-right-input3 {}
+        .footer-right-input-title2 {}
 
-    .footer-right-input-title4 {}
+        .footer-right-input2 {}
 
-    .footer-right-input4 {}
+        .footer-right-input-title3 {}
 
-    .submit {}
+        .footer-right-input3 {}
+
+        .footer-right-input-title4 {}
+
+        .footer-right-input4 {}
+
+        .submit {}
 
 
     }
