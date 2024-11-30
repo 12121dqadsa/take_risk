@@ -525,7 +525,7 @@ footer {
 }
 
 .footer-left {
-    width: 100%;
+    max-width: 100%;
     padding-right: 298px;
 }
 
@@ -581,6 +581,7 @@ footer {
 .footer-nav-list {
     display: flex;
     gap: 24px;
+    margin-bottom: 64px;
 }
 
 .footer-nav-link1 {
@@ -609,7 +610,7 @@ footer {
 }
 
 .footer-right {
-    width: 100%;
+    max-width: 343px;
     margin-left: 24px;
 }
 
@@ -620,6 +621,7 @@ footer {
     font-weight: 500;
     line-height: 25.6px;
     color: #c7c7c7;
+    width: 100%;
 }
 
 .footer-right-input1 {
@@ -632,6 +634,7 @@ footer {
     background-color: #1A1A1A;
     border: none;
     border-radius: 4px;
+    width: 100%;
 }
 
 .footer-right-input-title2 {
@@ -641,6 +644,7 @@ footer {
     font-weight: 500;
     line-height: 25.6px;
     color: #c7c7c7;
+    width: 100%;
 }
 
 .footer-right-input2 {
@@ -653,6 +657,7 @@ footer {
     background-color: #1A1A1A;
     border: none;
     border-radius: 4px;
+    width: 100%;
 }
 
 .footer-right-input-title3 {
@@ -662,6 +667,7 @@ footer {
     font-weight: 500;
     line-height: 25.6px;
     color: #c7c7c7;
+    width: 100%;
 }
 
 .footer-right-input3 {
@@ -674,6 +680,7 @@ footer {
     background-color: #1A1A1A;
     border: none;
     border-radius: 4px;
+    width: 100%;
 }
 
 .footer-right-input-title4 {
@@ -683,6 +690,7 @@ footer {
     font-weight: 500;
     line-height: 25.6px;
     color: #c7c7c7;
+    width: 100%;
 }
 
 .footer-right-input4 {
@@ -696,6 +704,7 @@ footer {
     border: none;
     resize: none;
     border-radius: 4px;
+    width: 100%;
 }
 
 .submit {
@@ -727,6 +736,7 @@ footer {
 
 
 @media(max-width:640px) {
+
     .header {
         padding-top: 24px;
         padding-bottom: 24px;
@@ -865,7 +875,10 @@ footer {
 
     .feature-nav1-link2-img {}
 
-    .about {}
+    .about {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 
     .about-container {}
 
@@ -883,7 +896,15 @@ footer {
 
     .about-first-right-text {}
 
-    .footer-container {}
+    footer {
+
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .footer-container {
+        display: grid;
+    }
 
     .footer-left {}
 
