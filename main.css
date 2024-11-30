@@ -871,11 +871,15 @@ footer {
 
     .about-first {}
 
-    .about-first-left-title {}
+    .about-first-left-title {
+        display: none;
+    }
 
     .about-first-right {}
 
-    .about-first-right-title {}
+    .about-first-right-title {
+        display: none;
+    }
 
     .about-first-right-text {}
 
