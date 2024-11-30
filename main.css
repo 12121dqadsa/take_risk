@@ -831,9 +831,13 @@ footer {
 
         .feature-body-left-btn {}
 
-        .feature-body-left-img {}
+        .feature-body-left-img {
+            display: none;
+        }
 
-        .feature-body-left-imgg {}
+        .feature-body-left-imgg {
+            display: block;
+        }
 
         .feature-body-right {}
 
